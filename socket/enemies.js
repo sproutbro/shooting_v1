@@ -11,22 +11,22 @@ shadowDog.height = shadowDog.spriteHeight / 10;
 shadowDog.action = [];
 shadowDog.action.push({
   frames: 7,
-  lifeTime: 50,
+  lifeTime: 100,
 });
 shadowDog.action.push({
   y: canvas.height,
   frames: 7,
-  speedY: -8,
+  speedY: -4,
 });
 shadowDog.action.push({
   y: -shadowDog.height,
   frames: 7,
-  speedY: 8,
+  speedY: 4,
 });
 shadowDog.action.push({
   x: -shadowDog.width,
   frames: 9,
-  speedX: 10,
+  speedX: 5,
 });
 
 const enemies = { shadowDog };
